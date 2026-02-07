@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Izmir Narrow";
+    src: url(/Demo_Fonts/Fontspring-DEMO-izmirnarrow-semibold.otf) format("opentype");
+}
+
+body{
+    background-color: #f1f5f8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    margin: 30px 250px;
+
+}
+.container{
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image{
+    width: 600px;
+    height: auto;
+}
+
+.des{
+    margin-left: 50px;
+    width: 40%;
+}
+
+.des h1{
+    color: #1a6aa2;
+    font-family: "Izmir Narrow", serif;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+.des > p:nth-of-type(1){
+    font-family: "Izmir Narrow", serif;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    color: #102a42;
+}
+.des > p:nth-of-type(2){
+    line-height: 1.5;
+    color: #9eb1c2;
+    margin: 20px 0;
+    width: 60%;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    width: min-content;
+    gap: 30px
+}
+.blocks > div{
+    background-color: #102a42;
+    padding: 15px;
+    width: 90px;
+    color: #f1f5f8;
+    text-align: center;
+}
+.blocks > div > h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.blocks > div > p:nth-of-type(1){
+    font-size: 1rem;
+    text-transform: uppercase;
+}
