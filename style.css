@@ -16,12 +16,11 @@ body{
 
 main{
     width: 100%;
-    margin: 30px 250px;
-
+    /* margin: 30px 0px; */
 }
 .container{
     width: 100%;
-    margin: 50px auto;
+    margin: 80px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +28,7 @@ main{
 
 #image{
     width: 600px;
-    height: auto;
+    height: 350px;
 }
 
 .des{
@@ -54,13 +53,14 @@ main{
     line-height: 1.5;
     color: #9eb1c2;
     margin: 20px 0;
-    width: 60%;
+    width: 100%;
 }
 .blocks{
     display: flex;
     justify-content: space-between;
     width: min-content;
-    gap: 30px
+    gap: 30px;
+    width: 70%;
 }
 .blocks > div{
     background-color: #102a42;
@@ -76,4 +76,9 @@ main{
 .blocks > div > p:nth-of-type(1){
     font-size: 1rem;
     text-transform: uppercase;
+}
+.expired{
+    color: #ce0707;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
